@@ -59,7 +59,7 @@ func update_item(item:String, item_image:StreamTexture,item_info:Array) -> void:
 			
 		"Resource":
 			amount += item_info[4]
-			type_value = item_info[2]
+			type_value = 0
 		
 		"Health":
 			amount += item_info[4]
